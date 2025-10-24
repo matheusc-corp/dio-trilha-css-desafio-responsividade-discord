@@ -4,6 +4,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
+    color: #23272A;
+}
+
+header {
+    overflow: hidden;
 }
 
 header img {
@@ -49,3 +54,43 @@ h1 {
     background-color: #23272A;
     color: #fff;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main section {
+    padding: 24px;
+}
+
+main section h2 {
+    font-weight: 800;
+}
+
+main section img {
+    max-width: 100%;
+    width: 379px;
+    height: 252px;
+    
+}
+
+main section:nth-of-type(even) {
+    background-color: #F6F6F6;
+}
+
+main section:last-of-type h2 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 1.85rem;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #23272A;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
